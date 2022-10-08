@@ -1,0 +1,20 @@
+export const inputDetails = [
+  { name: "firstName", label: "FirstName", type: "text" },
+  { name: "lastName", label: "LastName", type: "text" },
+  { name: "email", label: "Email", type: "text" },
+  { name: "phone", label: "Phone", type: "text" },
+  { name: "addressLine1", label: "AddressLine1", type: "text" },
+  { name: "addressLine2", label: "AddressLine2", type: "text" },
+  { name: "city", label: "City", type: "text" },
+  { name: "state", label: "State", type: "text" },
+  { name: "country", label: "Country", type: "select", options: countries },
+  { name: "arrivealDate", label: "Arriveal Date", type: "date" },
+  { name: "departureDate", label: "Departure Date", type: "date" },
+  { name: "message", label: "Message", multiline: true, rows: 4, type: "text" },
+  {
+    name: "termsOfService",
+    label: "agree",
+    legend: "Terms Of Service",
+    type: "checkbox",
+  },
+];
